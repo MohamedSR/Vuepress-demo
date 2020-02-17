@@ -4,6 +4,21 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: comunikDashboard
+  label: comunikDashboard
+  create: all
+  match: "**/*"
+- type: directory
+  path: comunikTelecom
+  label: comunikTelecom
+  create: all
+  match: "**/*"
+- type: directory
+  path: comunikContact
+  label: comunikContact
+  create: all
+  match: "**/*"
 - type: document
   path: README.md
   label: Homepage

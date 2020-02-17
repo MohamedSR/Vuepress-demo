@@ -4,8 +4,8 @@ sidebar: false
 home: true
 heroImage: comunik-logo.png
 actionText: Nos Produits
-actionLink: "/:z"
-footer: Copyright © ComunikCRM - 20202
+actionLink: "/comunikCRM"
+footer: Copyright © ComunikCRM - 2020
 
 ---
 ## [ComunikCRM](/comunikCRM)

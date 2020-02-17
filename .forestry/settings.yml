@@ -37,8 +37,8 @@ sections:
   label: comunikCRM
   create: all
   match: README.md
-upload_dir: public
-public_path: "/public"
+upload_dir: ".vuepress/public"
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"

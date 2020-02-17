@@ -1,15 +1,11 @@
+const config = require('../config.json');
+
 module.exports = {
-    title: 'Comunik',
-    description: 'We love your client',
-    logo: '/comunik-logo.png',
+    title: config.title,
+    description: config.description,
     themeConfig:{
-        nav: [
-            { text: "Home", link: "/" },
-            { text: "ComunikCRM", link: "/comunikCRM/" },
-            { text: "comunikVoip", link: "/comunikVoip/" },
-            { text: "comunikDashboard", link: "/comunikDashboard/" },
-            { text: "comunikSales", link: "/comunikSales/" }
-          ],
-        sidebar: 'auto'
+        logo: config.logo,
+        nav: config.navigation,
+        sidebar: config.sidebar
     }
 }

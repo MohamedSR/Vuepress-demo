@@ -6,6 +6,6 @@ module.exports = {
     themeConfig:{
         logo: config.logo,
         nav: config.navigation,
-        sidebar: config.sidebar
+        sidebar: 'auto'
     }
 }

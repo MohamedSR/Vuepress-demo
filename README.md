@@ -39,6 +39,4 @@ Pour un Business intelligent et une entreprise moderne, Comunik.VoIP vous ouvre 
 <span style="margin:20px;display:block;text-align:center">
 <img style="width:100px;" src="./icons/comunik-dashboard.png"/>
 </span>
-
-![](/public/comunik-contact.png)
 Comunik Dashboard traite vos Big Data depuis plusieurs sources et applications différentes et vous donne le moyen de les analyser en «libre service» d’une manière conviviale, efficace et surtout en toute sécurité. Créez des rapports, des tableaux, des graphiques et des croisements à l’infini avec une facilité et une rapidité impressionnante.

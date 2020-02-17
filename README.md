@@ -1,4 +1,6 @@
 ---
+navbar: false
+sidebar: false
 home: true
 heroImage: "/public/comunik-logo.png"
 actionText: Nos Produits

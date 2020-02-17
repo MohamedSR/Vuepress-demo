@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: PAGES
 - type: directory
   path: comunikDashboard
   label: comunikDashboard
@@ -19,24 +21,31 @@ sections:
   label: comunikContact
   create: all
   match: "**/*"
-- type: document
-  path: README.md
-  label: Homepage
 - type: directory
   path: comunikSales
   label: comunikSales
   create: all
-  match: README.md
+  match: "**/*"
 - type: directory
   path: comunikVoip
   label: comunikVoip
   create: all
-  match: README.md
+  match: "**/*"
 - type: directory
   path: comunikCRM
   label: comunikCRM
   create: all
-  match: README.md
+  match: "**/*"
+- type: heading
+  label: SITE SETTINGS
+- type: document
+  path: ".vuePress/config.js"
+  label: Settings
+- type: heading
+  label: Home
+- type: document
+  path: README.md
+  label: Homepage
 upload_dir: ".vuepress/public"
 public_path: ''
 front_matter_path: ''

@@ -39,7 +39,7 @@ sections:
 - type: heading
   label: SITE SETTINGS
 - type: document
-  path: config.js
+  path: config.json
   label: Settings
 - type: heading
   label: Home

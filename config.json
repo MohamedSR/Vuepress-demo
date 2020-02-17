@@ -4,10 +4,6 @@
   "logo": "/comunik-logo.png",
   "navigation": [
     {
-      "text": "Test",
-      "link": "/"
-    },
-    {
       "text": "Home",
       "link": "/"
     },

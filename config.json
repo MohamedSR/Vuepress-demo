@@ -5,7 +5,9 @@
   "navigation": [
     {
       "text": "Home",
-      "link": "/"
+      "link": "/",
+      "position": "left",
+      "external": false
     },
     {
       "text": "ComunikCRM",
@@ -24,5 +26,5 @@
       "link": "/comunikSales/"
     }
   ],
-  "sidebar": 'auto'
+  "sidebar": true
 }

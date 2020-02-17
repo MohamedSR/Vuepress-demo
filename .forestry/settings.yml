@@ -37,15 +37,15 @@ sections:
   create: all
   match: "**/*"
 - type: heading
-  label: SITE SETTINGS
-- type: document
-  path: config.json
-  label: Settings
-- type: heading
   label: Home
 - type: document
   path: README.md
   label: Homepage
+- type: heading
+  label: SITE SETTINGS
+- type: document
+  path: config.json
+  label: Settings
 upload_dir: ".vuepress/public"
 public_path: ''
 front_matter_path: ''

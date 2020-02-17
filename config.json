@@ -1,13 +1,28 @@
 {
-    "title": 'Comunik',
-    "description": 'We love your client',
-    "logo": '/comunik-logo.png',
-    "navigation": [
-        { "text": "Home", "link": "/" },
-        { "text": "ComunikCRM", "link": "/comunikCRM/" },
-        { "text": "comunikVoip", "link": "/comunikVoip/" },
-        { "text": "comunikDashboard", "link": "/comunikDashboard/" },
-        { "text": "comunikSales", "link": "/comunikSales/" }
-      ],
-    "sidebar": 'auto'
+  "title": "Comunik",
+  "description": "We love your client",
+  "logo": "/comunik-logo.png",
+  "navigation": [
+    {
+      "text": "Home",
+      "link": "/"
+    },
+    {
+      "text": "ComunikCRM",
+      "link": "/comunikCRM/"
+    },
+    {
+      "text": "comunikVoip",
+      "link": "/comunikVoip/"
+    },
+    {
+      "text": "comunikDashboard",
+      "link": "/comunikDashboard/"
+    },
+    {
+      "text": "comunikSales",
+      "link": "/comunikSales/"
+    }
+  ],
+  "sidebar": true
 }

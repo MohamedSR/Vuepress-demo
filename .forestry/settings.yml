@@ -26,17 +26,17 @@ sections:
   path: comunikSales
   label: comunikSales
   create: all
-  match: README.md
+  match: "**/*"
 - type: directory
   path: comunikVoip
   label: comunikVoip
   create: all
-  match: README.md
+  match: "**/*"
 - type: directory
   path: comunikCRM
   label: comunikCRM
   create: all
-  match: README.md
+  match: "**/*"
 upload_dir: ".vuepress/public"
 public_path: ''
 front_matter_path: ''

@@ -2,7 +2,6 @@
   <header
     class="header"
     :style="sticky && {
-      position: 'fixed',
       top: '0',
       left: '0',
       width: '100%',
@@ -32,7 +31,7 @@
         <div
           v-if="logo"
           class="logo"
-          :style="{ backgroundImage: `url(${logo})`}"
+          :style="{ backgroundImage: `url(${logoLink})`}"
           :title="$site.title"
         />
         <span v-else>{{ $site.title }}</span>
@@ -40,7 +39,7 @@
     </div>
 
     <nav v-if="navLinks" class="navigation right desktop-nav">
-      <ul>
+      <ul v-if="$route.path != '/'">
         <router-link
           v-for="nav in navLinks"
           :key="nav.text"
@@ -103,6 +102,9 @@
       navLinks() {
         return this.$site.themeConfig.nav
       },
+      logoLink(){
+          return this.$site.themeConfig.logo
+      }
     },
     methods: {
       toggleMobileNav() {
@@ -126,7 +128,7 @@
   }
   .logo {
     position: absolute;
-    width: 3rem;
+    width: 6rem;
     height: 3rem;
     background-size: contain;
     background-position: center;

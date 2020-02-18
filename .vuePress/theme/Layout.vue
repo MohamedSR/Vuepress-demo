@@ -12,9 +12,10 @@
 </template>
 
 <script>
-  export default {
 
-  }
+  export default {
+    name: 'Layout',
+ }
 </script>
 
 <style>

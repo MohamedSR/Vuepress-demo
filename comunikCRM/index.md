@@ -1,20 +1,5 @@
 ---
-navbar:
-    -
-        text: Accueil
-        link: /
-    -
-        text: ComunikCRM
-        link: /comunikCRM/
-    -
-        text: comunikVoip
-        link: /comunikVoip/
-    -
-        text: comunikDashboard
-        link: /comunikDashboard/
-    -
-        text: comunikSales
-        link: /comunikSales/
+navbar: true
 sidebar: auto
 
 ---

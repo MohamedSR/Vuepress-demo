@@ -1,5 +1,5 @@
 ---
-nav: [
+navbar: [
     {
       "text": "Accueil",
       "link": "/"

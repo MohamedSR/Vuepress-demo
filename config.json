@@ -5,23 +5,33 @@
   "navigation": [
     {
       "text": "Accueil",
-      "link": "/"
+      "link": "/",
+      "position": "right",
+      "external": false
     },
     {
       "text": "ComunikCRM",
-      "link": "/comunikCRM/"
+      "link": "/comunikCRM/",
+      "position": "right",
+      "external": false
     },
     {
       "text": "comunikVoip",
-      "link": "/comunikVoip/"
+      "link": "/comunikVoip/",
+      "position": "right",
+      "external": false
     },
     {
       "text": "comunikDashboard",
-      "link": "/comunikDashboard/"
+      "link": "/comunikDashboard/",
+      "position": "right",
+      "external": false
     },
     {
       "text": "comunikSales",
-      "link": "/comunikSales/"
+      "link": "/comunikSales/",
+      "position": "right",
+      "external": false
     }
   ]
 }

@@ -6,6 +6,8 @@ module.exports = {
     themeConfig:{
         logo: config.logo,
         nav: config.navigation,
+        displayAllHeaders: true,
+        smoothScroll: true,
         sidebar: 'auto'
     }
 }

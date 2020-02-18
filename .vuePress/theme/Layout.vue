@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
 
-    <Navbar :logo="$site.themeConfig.logo" :sticky="$route.path === '/'" />
+    <Navbar :logo="$site.themeConfig.logo" :sticky="$route.path != '/'" />
 
     <div class="container">
         <Content/>
@@ -38,6 +38,17 @@
   *::selection {
     background: var(--color-highlight);
     color: var(--color-black);
+  }
+  .header-anchor{
+        font-size: 0.85em;
+        float: left;
+        margin-left: -0.87em;
+        padding-right: 0.23em;
+        margin-top: 0.125em;
+        opacity: 0;
+  }
+  a {
+      text-decoration: none
   }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;

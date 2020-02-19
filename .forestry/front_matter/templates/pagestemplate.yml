@@ -5,3 +5,5 @@ fields:
 - type: text
   name: sidebar
   label: sidebar
+pages:
+- comunikDashboard/index.md

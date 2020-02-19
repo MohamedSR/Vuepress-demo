@@ -1,0 +1,7 @@
+---
+label: pagesTemplate
+hide_body: false
+fields:
+- type: text
+  name: sidebar
+  label: sidebar

@@ -1,5 +1,4 @@
 ---
-navbar: true
 sidebar: auto
 ---
 # comunikCRM

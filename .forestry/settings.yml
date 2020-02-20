@@ -45,7 +45,7 @@ sections:
   label: DATA
 - type: document
   path: config.json
-  label: Site Settings
+  label: Site Config
 upload_dir: ".vuepress/public"
 public_path: ''
 front_matter_path: ''

@@ -2,8 +2,9 @@
 label: pagesTemplate
 hide_body: false
 fields:
-- type: text
-  name: sidebar
+- name: sidebar
+  type: boolean
   label: sidebar
+  default: false
 pages:
 - comunikDashboard/index.md
